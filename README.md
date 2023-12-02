@@ -8,7 +8,6 @@ Welcome to the Suicide Detection AI and Reddit Scraper project! This repository 
 - [How to Run](#how-to-run)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
