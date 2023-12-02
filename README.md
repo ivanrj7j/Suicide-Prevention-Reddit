@@ -16,7 +16,7 @@ Welcome to the Suicide Detection AI and Reddit Scraper project! This repository 
 ### Suicide Detection AI
 - Uses TensorFlow to create a robust model for detecting suicidal content in text.
 - Trained on a diverse dataset of 130,000 comments from the internet.
-- Achieves high performance with 95% accuracy, 90% recall, and 93% precision on validation data.
+- Achieves high performance with `95% accuracy, 90% recall, and 93% precision` on validation data.
 
 ### Reddit Scraper
 - Utilizes Selenium to scrape posts from the Reddit homepage.
@@ -59,6 +59,21 @@ Make sure you have the following dependencies installed:
 1. ```bash
     pip install -r requirements.txt
     ```
+
+## Model
+
+The model was trained using 2 datasets, an [emotion classification](https://huggingface.co/datasets/dair-ai/emotion) dataset by `dair-ai` and a [suicide prevention](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch) dataset by `NIKHILESWAR KOMATI`. These 2 datasets were used to balance the dataset.
+
+- Training dataset had 137967 rows
+- Testing dataset had 34492 rows
+
+Model was trained succesfully and model had 
+
+- `95% accuracy`
+- `90% recall`
+- `93% precision`
+
+on validation data
 
 ## Contributing
 
